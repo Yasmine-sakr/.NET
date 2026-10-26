@@ -45,5 +45,19 @@ Explanation
 class Student defines the Student class.
 Name, Age, and GPA are properties that store student information.
 new Student() creates a new object from the Student class.
+
+
+
+2. Why OOP?
+Why do we need OOP?
+We need OOP to organize our code into classes and objects. It makes programs easier to understand, maintain, and develop.
+Three Advantages of OOP
+1. Code Reusability: We can reuse existing code instead of writing it again.
+2. Organization: We can organize our code into classes, making it easier to understand and manage.
+3. Maintainability: We can update or fix parts of the code more easily without changing the entire program.
+How does OOP help us organize and reuse code?
+OOP helps us organize code by grouping related data and methods inside classes.
+It also allows us to create multiple objects from the same class and reuse code through inheritance.
+This reduces code duplication and makes programs easier to maintain.
 student1 and student2 are two separate objects.
 Console.WriteLine() prints the students’ information.
