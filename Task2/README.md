@@ -59,5 +59,23 @@ How does OOP help us organize and reuse code?
 OOP helps us organize code by grouping related data and methods inside classes.
 It also allows us to create multiple objects from the same class and reuse code through inheritance.
 This reduces code duplication and makes programs easier to maintain.
+
+
+
+
+3. Access Modifiers
+Access modifiers define the accessibility of classes, properties, and methods in C#.
+1. Public
+The public modifier allows access from any code that can access the class.
+Example: A student’s Name property can be public so other classes can read or update it.
+2. Private
+The private modifier allows access only within the same class.
+Example: A bank account’s balance can be private to prevent direct changes from outside the class.
+3. Protected
+The protected modifier allows access within the same class and its derived classes.
+Example: A Person class can have a protected property that is accessible to classes such as Student and Instructor.
+4. Internal
+The internal modifier allows access from anywhere within the same assembly.
+Example: A helper class used only inside the same project can be internal.
 student1 and student2 are two separate objects.
 Console.WriteLine() prints the students’ information.
